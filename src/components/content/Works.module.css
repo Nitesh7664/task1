@@ -1,0 +1,44 @@
+.section {
+  padding: 3em 0;
+  background-color: #eee;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    width: var(--lg);
+  }
+}
+.card {
+  width: 300px;
+  padding: 1.5em;
+  margin: 10px;
+  background: #fff;
+  transition: all 0.5s ease-out;
+}
+.card:hover {
+  box-shadow: var(--bs);
+}
+.img_container {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(19, 106, 163);
+  padding: 35px 25px;
+  margin: 0 auto;
+  color: #fff;
+}
+img {
+  width: 100px;
+}
+.body {
+  margin: 1em 0.5em;
+  color: var(--medium);
+  font-weight: 700;
+  text-align: center;
+}

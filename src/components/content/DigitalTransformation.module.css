@@ -1,0 +1,15 @@
+.section {
+  padding: 3em 0;
+}
+
+.para {
+  width: 90%;
+  text-align: center;
+  margin: 10px auto;
+}
+@media screen and (min-width: 800px) {
+  .para {
+    width: 70%;
+    text-align: center;
+  }
+}

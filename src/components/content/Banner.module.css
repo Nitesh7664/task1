@@ -1,0 +1,53 @@
+.section {
+  position: relative;
+}
+.upper {
+  background-color: #000;
+  width: 100%;
+  height: 200px;
+}
+.lower {
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+}
+.img_container {
+  position: absolute;
+  width: 95%;
+  height: 300px;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+@media screen and (min-width: 800px) {
+  .img_container {
+    width: 70%;
+    height: 350px;
+    top: 0px;
+  }
+}
+.img {
+  width: 100%;
+  height: 450px;
+}
+@media screen and (min-width: 800px) {
+  .img {
+    height: 500px;
+  }
+}
+.banner_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+@media screen and (min-width: 800px) {
+  .banner_title {
+    font-size: 3em;
+  }
+}

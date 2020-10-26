@@ -1,0 +1,29 @@
+.bg-dark {
+  background-color: #000 !important;
+}
+.navbar-img {
+  width: 200px;
+  height: 50px;
+}
+.dropdown-menu {
+  padding: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+.dropdown-item {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.button {
+  padding: 0em 2em !important;
+  border-radius: 25px;
+  max-width: max-content;
+}
+@media screen and (min-width: 800px) {
+  .nav-item {
+    margin-right: 30px;
+  }
+  .dropdown-item {
+    margin: 1em;
+  }
+}

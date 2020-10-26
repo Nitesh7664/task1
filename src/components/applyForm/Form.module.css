@@ -1,0 +1,96 @@
+.section {
+  padding: 2em;
+  background-color: #eee;
+}
+.container {
+  width: 90%;
+  padding: 1em;
+  margin: 0 auto;
+  justify-content: center;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    width: 70%;
+    max-width: 900px;
+    padding: 1em auto;
+  }
+}
+.title {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.sub_title {
+  font-size: 0.8em;
+  color: var(--medium);
+}
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin: 20px auto;
+}
+.label {
+  width: 90%;
+  max-width: 300px;
+  min-width: 250px;
+  text-align: left;
+  font-size: 1.2em;
+}
+.input_text,
+.input_file,
+.input_text_field {
+  background: none;
+  outline: none;
+  border: none;
+  width: 90%;
+  min-width: 250px;
+  max-width: 600px;
+  background: #fff;
+  border: 1px solid #000;
+  height: 35px;
+  padding: 0em 0.5em;
+}
+.input_file {
+  background-color: #bbb;
+  width: fit-content;
+  max-width: 400px;
+}
+.input_text_field {
+  height: 150px;
+}
+@media screen and (min-width: 800px) {
+  .label {
+    width: 200px;
+  }
+  .input_text {
+    width: 500px;
+  }
+  .input_text_field {
+    max-width: 750px;
+  }
+}
+.red {
+  color: #d00;
+}
+.button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background-color: none;
+  padding: 0.8em 1.5em;
+  height: 50px;
+  border-radius: 30px;
+  color: var(--light);
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px auto;
+  background-color: rgb(30, 99, 202);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: rgb(15, 63, 102);
+  font-weight: 700;
+}

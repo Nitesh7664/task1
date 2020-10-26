@@ -1,0 +1,40 @@
+.section {
+  background-color: #eee;
+  padding: 3em 0;
+}
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  width: 70%;
+  margin: 0 auto;
+  padding: 1em auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
+.card {
+  width: 120px;
+  margin: 5px;
+}
+.img_container {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  padding: 1em;
+}
+img {
+  width: 70px;
+  height: 70px;
+}
+.info_container {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0.8em 0.3em;
+  border-top: 2px solid #ddd;
+}

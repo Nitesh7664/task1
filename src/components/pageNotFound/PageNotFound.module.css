@@ -1,0 +1,17 @@
+.section {
+  padding: 4em 2em;
+  height: 60%;
+}
+.title {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 700;
+  margin: 60px auto 10px;
+}
+.sub_title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 10px auto;
+  color: #d00;
+}
